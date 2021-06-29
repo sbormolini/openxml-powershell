@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vinum.DocumentFormat.PowerShell.Cmdlets", "Vinum.DocumentFormat.PowerShell.Cmdlets\Vinum.DocumentFormat.PowerShell.Cmdlets.csproj", "{A994E033-9E2E-4B8C-A352-A733F7DD5166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A994E033-9E2E-4B8C-A352-A733F7DD5166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A994E033-9E2E-4B8C-A352-A733F7DD5166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A994E033-9E2E-4B8C-A352-A733F7DD5166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A994E033-9E2E-4B8C-A352-A733F7DD5166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {31A2719E-C7F9-4DDB-A059-DFA447CC5B42}
+	EndGlobalSection
+EndGlobal
