@@ -59,7 +59,7 @@ namespace TestBos.DocumentFormat.PowerShell.Cmdlets
 
             try
             {
-                DataTable dtTable = new();
+                DataTable dtTable = new DataTable();
 
                 using (SpreadsheetDocument doc = SpreadsheetDocument.Open(FilePath, false))
                 {
@@ -73,7 +73,7 @@ namespace TestBos.DocumentFormat.PowerShell.Cmdlets
 
                     for (int rCnt = StartRow-1; rCnt < totalCnt; rCnt++)
                     {
-                        List<string> rowList = new();
+                        List<string> rowList = new List<string>();
                         for (int rCnt1 = 0; rCnt1 < thesheetdata.ElementAt(rCnt).ChildElements.Count; rCnt1++)
                         {
                             Cell thecurrentcell = (Cell)thesheetdata.ElementAt(rCnt).ChildElements.ElementAt(rCnt1);
