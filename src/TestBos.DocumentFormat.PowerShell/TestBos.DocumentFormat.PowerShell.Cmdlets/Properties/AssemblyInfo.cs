@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PowerShellHelper")]
+[assembly: AssemblyTitle("TestBos.DocumentFormat")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("itnetX (Switzerland) AG")]
-[assembly: AssemblyProduct("PowerShellHelper")]
+[assembly: AssemblyProduct("TestBos.DocumentFormat")]
 [assembly: AssemblyCopyright("Copyright © itnetX (Switzerland) AG 2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
